@@ -1,0 +1,66 @@
+/* Fonte e cores gerais para o corpo da página */
+body {
+  font-family: Tahoma, sans-serif; /* Define a fonte principal da página */
+  margin: 0; /* Remove as margens padrão do navegador */
+  background-color: #e6e6e6; /* Define a cor de fundo da página */
+}
+
+/* Estilo do cabeçalho (classe .header) */
+.header {
+  background-color: #f1f1f1; /* Cor de fundo clara para o cabeçalho */
+  text-align: center; /* Centraliza o texto */
+  padding: 15px; /* Espaçamento interno */
+  margin-top: 0; /* Remove a margem superior */
+}
+
+/* Seção de patrocinadores */
+.sponsors-section {
+  padding: 0; /* Remove o espaçamento interno */
+}
+
+.sponsors-section h2 {
+  font-size: 2em; /* Define o tamanho da fonte para os títulos */
+  margin-bottom: 30px; /* Espaçamento inferior abaixo do título */
+}
+
+/* Container dos logotipos dos patrocinadores */
+.sponsor-logos {
+  display: flex; /* Utiliza layout flexível */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+  gap: 50px; /* Espaço entre os itens */
+}
+
+/* Estilo individual para cada box de patrocinador */
+.sponsor-box {
+  background-color: #ff7cab; /* Cor de fundo rosa */
+  padding: 30px; /* Espaçamento interno */
+  border-radius: 60px; /* Cantos arredondados */
+  width: 180px; /* Largura fixa */
+  height: 180px; /* Altura fixa */
+  display: flex; /* Flex para centralizar o conteúdo */
+  align-items: center; /* Alinha verticalmente o conteúdo ao centro */
+  justify-content: center; /* Alinha horizontalmente o conteúdo ao centro */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra para dar profundidade */
+}
+
+/* Estilo das imagens dentro dos boxes de patrocinadores */
+.sponsor-box img {
+  max-width: 180%; /* Permite que a imagem ultrapasse um pouco a largura do box */
+  max-height: 180px; /* Define altura máxima para evitar quebra de layout */
+}
+
+/* Estilo do rodapé (footer) */
+footer {
+  background-color: #f1f1f1; /* Cor de fundo igual à do cabeçalho */
+  text-align: center; /* Centraliza o texto */
+  padding: 20px; /* Espaçamento interno */
+  margin-top: 40px; /* Espaçamento superior para separar do conteúdo anterior */
+}
+
+/* Texto do rodapé */
+footer p {
+  color: #7e7e7e; /* Cor de texto cinza para contraste suave */
+  font-size: 0.9em; /* Tamanho de fonte um pouco menor */
+  margin: 0; /* Remove margens padrão */
+}
